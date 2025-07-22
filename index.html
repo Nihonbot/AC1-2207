@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form id="submitForm" enctype="multipart/form-data">
+      <label for="firstName">First Name:</label>
+      <input
+        id="firstName"
+        name="First Name"
+        type="text"
+        placeholder="Enter first name"
+        required
+      />
+
+      <label for="lastName1">Last Name 1:</label>
+      <input
+        id="lastName1"
+        name="Last Name 1                "
+        type="text"
+        placeholder="Enter last name 1"
+        required
+      />
+
+      <label for="lastName2">Last Name 2:</label>
+      <input
+        id="lastName2"
+        name="Last Name 2"
+        type="text"
+        placeholder="Enter last name 2"
+        required
+      />
+
+      <label for="age">Age:</label>
+      <input
+        id="age"
+        name="Age"
+        type="number"
+        placeholder="Enter your age"
+        required
+      />
+
+      <label for="profession">Profession:</label>
+      <input
+        id="profession"
+        name="Profession"
+        type="text"
+        placeholder="Enter your profession"
+        required
+      />
+
+      <label for="avatar">Avatar:</label>
+      <input id="avatar" name="Avatar" type="file" accept="image/*" required />
+
+      <button type="submit">Submit</button>
+      <button type="reset">Clear</button>
+    </form>
+
+    <div class="output" id="output"></div>
+
+    <script type="module" src="./javascript/index.js"></script>
+  </body>
+</html>
